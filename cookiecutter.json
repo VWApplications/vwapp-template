@@ -1,5 +1,11 @@
 {
     "directory_name": "nome_do_diretorio",
     "file_name": "nome_do_arquivo",
-    "content": "print('Ola mundo!')"
+    "content": "print('Ola mundo!')",
+    "teste": true,
+    "loop": [1, 2, 3, 4],
+    "empty": [],
+    "dict": {
+        "oii": "Tudo bom!"
+    }
 }
