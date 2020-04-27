@@ -1,5 +1,7 @@
 {{cookiecutter.content}}
 
+print("{{cookiecutter.mydict['oii']}}")
+
 {% if cookiecutter.teste %}
 print("Passei no teste")
 {% elif cookiecutter.content == "oii" %}
@@ -12,13 +14,9 @@ print("Ola do python")
 print(i)
 {% endfor %}
 
+
 {% for i in cookiecutter.empty %}
 print(i)
 {% else %}
 print("Vazio")
-{% endfor %}
-
-{% for extension, detail in cookiecutter.dict | dictsort %}
-    print("{{extension}}")
-    print("{{detail.oii}}")
 {% endfor %}

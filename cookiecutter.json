@@ -5,7 +5,7 @@
     "teste": true,
     "loop": [1, 2, 3, 4],
     "empty": [],
-    "dict": {
+    "mydict": {
         "oii": "Tudo bom!"
     }
 }
