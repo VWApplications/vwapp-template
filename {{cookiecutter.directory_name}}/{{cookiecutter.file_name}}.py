@@ -2,6 +2,8 @@
 
 {% if cookiecutter.teste %}
 print("Passei no teste")
+{% elif cookiecutter.content == "oii" %}
+print("Ola do python")
 {% else %}
     print("Não passei no teste")
 {% endif%}
@@ -12,7 +14,7 @@ print(i)
 
 {% for i in cookiecutter.empty %}
 print(i)
-{% empty %}
+{% else %}
 print("Vazio")
 {% endfor %}
 
