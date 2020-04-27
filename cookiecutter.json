@@ -1,1 +1,5 @@
-{"directory_name": "nome_do_diretorio"}
+{
+    "directory_name": "nome_do_diretorio",
+    "file_name": "nome_do_arquivo",
+    "content": "print('Ola mundo!')"
+}
